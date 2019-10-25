@@ -1,0 +1,155 @@
+/* import font from google fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+:root{
+  --primary-color: #AA25ED;
+  --border: #e1e1e1;
+  --text-color: #333;
+  --light-gray: #5A5A5A;
+  --poppins: "Poppins", sans-serif;
+}
+
+.primary-color{
+  color: var(--primary-color);
+}
+
+.bg-primary-color{
+  background-color: var(--primary-color)!important;
+}
+
+.text-color{
+  color: var(--text-color);
+}
+
+.heading-color{
+  color: var(--light-gray);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.primary-button{
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 14px;
+  padding: 12 20px;
+  border-radius: 5px;
+}
+
+.primary-button:hover{
+  color: var(--primary-color);
+  background: none;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 5px 20px rgba(170, 37, 237, 0.25);
+}
+
+body{
+  font-family: var(--poppins);
+}
+
+/*header*/
+
+.navbar-nav{
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+  color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: var(--primary-color);
+}
+
+/* Caurosel */
+
+#carouselExampleCaptions > div > div.carousel-item.active{
+  top: 86px;
+}
+
+.carousel-caption{
+  bottom: 200px;
+}
+
+.carousel-caption h5{
+  font-size: 48px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+}
+
+.carousel-caption p{
+  font-size: 18px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon{
+  color: white;
+}
+
+/*Products Section*/
+  .alignment{
+    margin-top: 120px;
+  }
+  .product-sub-heading{
+    font-size: 14px;
+  }
+  .card{
+    border: none;
+    height: 268px;
+  }
+  .card-img-top{
+    height: 100%;
+    min-height: 268px;;
+    position: relative;
+  }
+
+  .card-body{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 56px;
+    padding: 15 auto;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .card-text{
+    font-weight: 600;
+  font-size: 14px;
+  }
+
+  .product-button-div{
+    margin-top: 60px;
+  }
+
+  /* About */
+
+  .about-img{
+    width: 567px;
+    height: 298px;
+  }
+
+  .about-h3{
+    margin-bottom: 24px;
+  }
+
+  .about-p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+  }
+
+  /*Services*/
+
+  .mt{
+    margin-top: 80px;
+  }
+
+  .service-point{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
