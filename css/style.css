@@ -44,6 +44,7 @@
 
 body{
   font-family: var(--poppins);
+  position: relative;
 }
 
 /*header*/
@@ -152,4 +153,48 @@ body{
     display: flex;
     align-items: center;
     margin-bottom: 60px;
+    transition: 0.7s;
   }
+  
+  /* Footer */
+
+  footer{
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 50px;
+    height: 200px;
+  }
+
+  .footer_text{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 100px;
+  }
+  .icons{
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+
+  .icons>a .fab{
+    padding-right: 30px;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .icons>a .fab:hover{
+    color: var(--primary-color);
+  }
+
+  @media screen and (max-width: 600px){
+    .footer_text{
+      margin-top: 20px;
+      padding-left: 0;
+    }
+
+    .icons{
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+  } 
