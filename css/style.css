@@ -155,6 +155,21 @@ body{
     margin-bottom: 60px;
     transition: 0.7s;
   }
+
+  /* about */
+
+  .about-main{
+    margin-top: 90px;
+  }
+
+  .what>li{
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+
+  .sub_heading{
+    margin: 30px 0;
+  }
   
   /* Footer */
 
@@ -196,5 +211,9 @@ body{
     .icons{
       margin-top: 20px;
       margin-left: 0px;
+    }
+
+    .card{
+      margin-bottom: 20px;
     }
   } 
