@@ -68,7 +68,7 @@ body{
 /* Caurosel */
 
 #carouselExampleCaptions > div > div.carousel-item.active{
-  top: 86px;
+  top: 66px;
 }
 
 .carousel-caption{
