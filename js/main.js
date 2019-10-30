@@ -1,4 +1,8 @@
-// MDB Lightbox Init
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
+
+$(".gallery").magnificPopup({
+  delegate: "a",
+  type: "image",
+  gallery:{
+    enabled: true
+  }
+})

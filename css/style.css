@@ -9,6 +9,10 @@
   --poppins: "Poppins", sans-serif;
 }
 
+body{
+  background: #FBF3FF;
+}
+
 .primary-color{
   color: var(--primary-color);
 }
@@ -143,6 +147,20 @@ body{
     color: #333333;
   }
 
+  .about-main{
+    margin-top: 90px;
+  }
+
+  .what>li{
+    margin-bottom: 20px;
+    margin-left: -20px;
+  }
+
+  .sub_heading{
+    margin: 30px 0;
+  }
+  
+
   /*Services*/
 
   .mt{
@@ -158,18 +176,30 @@ body{
 
   /* about */
 
-  .about-main{
-    margin-top: 90px;
+  /*gallery*/
+  .gallery-section{
+    transition: 0.8s ease-in;
+  }
+  .border{
+    width: 180px;
+    height: 4px;
+    background: var(--primary-color);
+    margin: 30px auto;
   }
 
-  .what>li{
-    margin-bottom: 20px;
-    margin-left: -20px;
+  .image{
+    transition: 0.4s;
   }
 
-  .sub_heading{
-    margin: 30px 0;
+  .img-fluid{
+    width: 100%;
   }
+
+  .image:hover img{
+    transform: scale(1.1) rotate(5deg);
+  }
+  /*gallery*/
+
   
   /* Footer */
 
@@ -215,5 +245,9 @@ body{
 
     .card{
       margin-bottom: 20px;
+    }
+
+    .about-main.sub_heading{
+      margin-top: 100px;
     }
   } 
